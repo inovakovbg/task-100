@@ -1,4 +1,4 @@
-
+import "./App.css"
 import React from "react";
 
 function App() {
@@ -8,16 +8,10 @@ function App() {
 
 
   return (
-    <div style={{
-      maxwidth: "60rem",
-      margin: "2rem auto",
-      padding: "1rem",
-      boxshadow: "0 2px 8px rgba(0, 0, 0, 0.25)",
-      borderradius: "14px",
-      backgroundcolor: "white",
-    }}>
+    <div className="App">
 
       <div style={{
+        
         display: "flex",
         justifyContent: "space-between",
         margin: "1rem",
